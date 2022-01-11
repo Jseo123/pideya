@@ -12,7 +12,7 @@
 
 <body class="text-center">
     <main class="form-signin">
-        <form action="./src/library/loginManager.php" method="POST">
+        <form action="../../controllers/adminSession.php" method="POST">
             <h3 class="mb-3">POR FAVOR INICIE SESION</h3>
 
             <div class="form-floating mb-3">

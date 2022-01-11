@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "name": "jose",
+            "password": "558017616fc925d4bcc7d1fd9f43a753310fb719",
+            "email": "jose123135@gmail.com"
+        },
+        {
+            "userId": 2,
+            "name": "Marcosmm",
+            "password": "070f16494ab75122dce2ad7bcc61920708105217",
+            "email": "marcos.millon.96@gmail.com"
+        },
+        {
+            "userId": 3,
+            "name": "alecabra",
+            "password": "070f16494ab75122dce2ad7bcc61920708105217",
+            "email": "alejandrocabranavarrete@gmail.com"
+        }
+    ]
+}
