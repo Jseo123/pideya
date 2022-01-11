@@ -13,23 +13,6 @@ function logIn()
     } else {
         header("Location: ../library/admin/admin.php?failedLog");
     }
-
-
-
-    //foreach ($json as $object) {
-    //if ($object["name"] === $user or $object["email"] === $user) {
-    // $check = password_verify($pass, $object["password"]);
-    //if ($check === true) {
-    //session_start();
-    //$_SESSION["user"] = $user;
-    //header("Location: ../library/admin/panel.php");
-    //} else {
-    // header("Location: ../library/admin/admin.php?failedLog");
-    //}
-    //} else if ($user === null){
-    //header("Location: ../library/admin/admin.php?failedLog");
-    //}
-    //}
 }
 
 function userCheck($user, $json)
