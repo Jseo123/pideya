@@ -78,3 +78,10 @@ function sessionCheck(){
 function denied(){
     echo "<p class='alert alert-danger'>Acesso denegado. Inicie sesion por favor.<p>";
 }
+
+function indexSessionCheck(){
+    session_start();
+    if(isset($_SESSION["admin"])){
+        header("Location: ./panel.php");
+    }
+}
