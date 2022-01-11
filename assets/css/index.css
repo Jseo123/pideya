@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+main {
+   height: 90vh;
+}
+
+.client {
+    margin: 0 1vh 0 1vh;
+}
+
+.admin {
+    margin: 0 1vh 0 1vh;
+}
