@@ -1,2 +1,4 @@
 <?php
-echo hash('ripemd160', 'marcosmm');
+require_once "./adminLogControl.php";
+
+logIn();
