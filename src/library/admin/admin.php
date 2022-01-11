@@ -27,6 +27,12 @@
             <div class="mb-3">
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">INICIAR SESION</button>
+            <?php
+            require_once "../../controllers/adminLogControl.php";
+if(isset($_GET["failedLog"])){
+    failedLog();
+}
+            ?>
         </form>
     </main>
 </body>
