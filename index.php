@@ -17,7 +17,7 @@
                     <p>Cliente</p>
                 </a>
             </div>
-            <div class="admin border d-flex justify-content-between"> <a class="nav-link redirect d-flex justify-content-between">
+            <div class="admin border d-flex justify-content-between"> <a href="./src/library/admin/admin.php" class="nav-link redirect d-flex justify-content-between">
                     <p>Administrador</p>
                 </a></div>
         </div>
