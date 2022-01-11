@@ -10,6 +10,9 @@
 </head>
 <body>
 <?php require_once  "../html/header.html";
+require_once "../../controllers/adminLogControl.php";
+
+sessionCheck();
 
 ?>
 
