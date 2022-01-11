@@ -9,7 +9,6 @@ function logIn()
     $userCheck = userCheck($user, $json);
     if ($userCheck !== null) {
         passCheck($userCheck, $pass);
-        print_r($userCheck);
     } else {
         header("Location: ../library/admin/admin.php?failedLog");
     }
@@ -70,6 +69,7 @@ function logOut(){
 }
 
 function sessionCheck(){
+    session_start();
     if (!isset($_SESSION["admin"])){
         header("Location: ../admin/admin.php?denied");
     }
