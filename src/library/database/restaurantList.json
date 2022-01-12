@@ -1,3 +1,1 @@
-[
-
-]
+[{"ownerName":"Jose","lastName":"Rodriguez","restaurantName":"Lolita","adress":"Calle Sevilla 27","phone":"522326354","cardNumber":"1231414312","cvc":"321","expirationDate":"2025-06-12","email":"jose123135@gmail.com","user":"Jseo123","password":"$2y$10$lx3NcYmezqXdwFlgE3QpouNygtcUxiT\/wNuInoEUzg0qieV5ssW3G","notes":"Objeto de prueba. Contrase\u00f1a 1234","id":1},{"ownerName":"Marcos","lastName":"Millon Martin","restaurantName":"El Marquete","adress":"calle lo quesea, 23 29009","phone":"622326353","cardNumber":"1231414312","cvc":"432","expirationDate":"2026-07-16","email":"marcosmillonmartin@gmail.com","user":"Marcosmm","password":"$2y$10$Sdy7YTBQIT7KrRemJGc9ku0gz84XOkQxCFwJXDqEw3bhxdfkAp0ju","notes":"Usuario de puebra contrase\u00f1a marcos123","id":2}]

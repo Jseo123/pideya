@@ -13,9 +13,13 @@
 <body>
     <?php require_once  "../html/header.html";
     require_once "../../controllers/adminLogControl.php";
+    require_once "../../controllers/databaseManager.php";
     sessionCheck();
     $user = $_SESSION["admin"];
     echo "<h3>Buen dia $user!</h3>";
+    if(isset($_GET["addedRestaurant"])){
+        confirmationMessage();
+    }
     ?>
 <main id="container" class="d-flex justify-content-center">
 <div class="flex-item d-flex justify-content-center navbar navbar-light bg-light"><a href="newRestaurant.php" id="newRestaurant" class="btn btn-outline-success">Crear nuevo restaurante</a></div>
