@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../../../assets/css/adminLog.css">
 </head>
+
 <body class="text-center">
     <main class="form-signin">
         <form action="../../controllers/adminSession.php" method="POST">
@@ -27,17 +28,15 @@
             <?php
             require_once "../../controllers/adminLogControl.php";
             indexSessionCheck();
-            if(isset($_GET["denied"])){
+            if (isset($_GET["denied"])) {
                 denied();
             }
-if(isset($_GET["failedLog"])){
-    failedLog();
-}
+            if (isset($_GET["failedLog"])) {
+                failedLog();
+            }
             ?>
         </form>
     </main>
-</body>
-</html>
 </body>
 
 </html>
