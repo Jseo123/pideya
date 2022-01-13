@@ -28,5 +28,20 @@
     "password": "$2y$10$B720NJ1jbljIX8eiCGbfx.L4uqlqw3eGiF6SGCPoeT6l/Ot4KlprW",
     "notes": "dummy 1234",
     "id": 2
+  },
+  {
+    "ownerName": "Mariano",
+    "lastName": "Rajoy",
+    "restaurantName": "Marianito",
+    "adress": "Avenida espa\u00f1a, 123",
+    "phone": "62232456",
+    "cardNumber": "1231414312",
+    "cvc": "321",
+    "expirationDate": "2022-01-13",
+    "email": "Marianorajoy@gmail.com",
+    "user": "Vivaelpp",
+    "password": "$2y$10$MT12YTvi9mrOPEolTkIw5u1GkGHcUEDcK8jLCppt50SuUQ3eUHZBW",
+    "notes": "Password 456",
+    "id": 3
   }
 ]
