@@ -13,7 +13,7 @@
     <main class="d-flex justify-content-center align-items-center">
         <div class="d-flex flex-row justify-content-around">
             <div class="client border d-flex justify-content-between">
-                <a class="nav-link redirect d-flex justify-content-between">
+                <a href="./src/library/client/client.php" class="nav-link redirect d-flex justify-content-between">
                     <p>Cliente</p>
                 </a>
             </div>

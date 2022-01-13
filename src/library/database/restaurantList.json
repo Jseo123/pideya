@@ -1,1 +1,32 @@
-[{"ownerName":"Marcos","lastName":"Millon Martin","restaurantName":"El Marquete","adress":"Calle Sevilla 27","phone":"62232456","cardNumber":"1231414312","cvc":"321","expirationDate":"2028-05-02","email":"jose123135@gmail.com","user":"Marcosmm","password":"$2y$10$UAB4iprALlT0lBRja6rSNeBM3PzXbMskgrBEAn32lKT9p7fAnYVXa","notes":"Dummy account, password 1234","id":1}]
+[
+  {
+    "ownerName": "Jose",
+    "lastName": "Rodriguez",
+    "restaurantName": "Joselito Carnaval",
+    "adress": "Calle Sevilla 27",
+    "phone": "62232456",
+    "cardNumber": "1231414312",
+    "cvc": "432",
+    "expirationDate": "2028-02-02",
+    "email": "jose123135@gmail.com",
+    "user": "Jseo123",
+    "password": "$2y$10$PttWKxsab4dqBK5LN3BOruzhfqth9M/RE/aGUZkpSSTdll.oUDP.m",
+    "notes": "dummy restaurant. password 1234",
+    "id": 1
+  },
+  {
+    "ownerName": "Jose",
+    "lastName": "Rodriguez",
+    "restaurantName": "El Marquete",
+    "adress": "Calle Sevilla 27",
+    "phone": "62232456",
+    "cardNumber": "1231414312",
+    "cvc": "23",
+    "expirationDate": "2022-01-13",
+    "email": "jose123135@gmail.com",
+    "user": "Marcosmm",
+    "password": "$2y$10$B720NJ1jbljIX8eiCGbfx.L4uqlqw3eGiF6SGCPoeT6l/Ot4KlprW",
+    "notes": "dummy 1234",
+    "id": 2
+  }
+]
