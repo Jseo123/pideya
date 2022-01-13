@@ -17,6 +17,10 @@ function addRestaurant(array $restaurant)
 //Sorts the array and creates a new page with the name of the array
 $restaurant = $fileArray[$key]["restaurantName"];
 mkdir("D:/xampp/htdocs/pideya/restaurants/$restaurant");
+mkdir("D:/xampp/htdocs/pideya/restaurants/$restaurant/assets");
+mkdir("D:/xampp/htdocs/pideya/restaurants/$restaurant/library");
+mkdir("D:/xampp/htdocs/pideya/restaurants/$restaurant/library/database");
+mkdir("D:/xampp/htdocs/pideya/restaurants/$restaurant/control");
     createNewpage($restaurant);
 }
 
@@ -39,6 +43,9 @@ $content ="<!DOCTYPE html>
 </html>
 ";
 $handle = fopen("D:/xampp/htdocs/pideya/restaurants/$restaurant/$filename.php", "w");
+$handle = fopen("D:/xampp/htdocs/pideya/restaurants/$restaurant/assets/styles.css", "w");
+$handle = fopen("D:/xampp/htdocs/pideya/restaurants/$restaurant/assets/script.js", "w");
+$handle = fopen("D:/xampp/htdocs/pideya/restaurants/$restaurant/library/database/stock.json", "w");
 $adress = "../../restaurants/$restaurant/$filename.php";
 file_put_contents($adress, $content);
 }
